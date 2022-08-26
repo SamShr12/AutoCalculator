@@ -1,0 +1,50 @@
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.grid-4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}   
+
+
+.w-50{
+    width: 700px;
+    margin: 0 auto;
+    box-shadow: 5px 10px 18px #ccc;
+    padding: 15px;
+}
+
+.w-75{
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.w-75s{
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+.grid-5{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+input[type=text]{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input[type=number]{
+    padding: 5px 10px 5px 10px;
+    border: 0px solid #ccc;
+    outline: none;
+    text-align: center;
+}
+
+.search{
+    width: 200px;
+}
